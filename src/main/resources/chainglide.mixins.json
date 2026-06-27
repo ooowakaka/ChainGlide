@@ -1,0 +1,16 @@
+{
+    "required": false,
+    "minVersion": "0.8",
+    "package": "com.ooowakaka.ooowakaka.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "chainglide.refmap.json",
+    "plugin": "com.ooowakaka.ooowakaka.mixin.MixinPlugin",
+    "mixins": [
+        "ChainConveyorRidingHandlerMixin",
+        "ChainConveyorInteractionHandlerMixin",
+        "PlayerSkyhookRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}
